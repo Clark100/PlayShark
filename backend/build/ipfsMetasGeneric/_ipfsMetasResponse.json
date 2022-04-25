@@ -1,0 +1,14 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreia5bem6w5lwrvtmombnhcr6zozdetc62dirpvrzwxva3plyk5h3da",
+  "name": "PlayShark",
+  "description": "Shark is coming",
+  "file_url": "https://ipfs.io/ipfs/bafybeigvimj6k4dk445oc6yhhsidw6vvq7fxyrlnoocxaurorcydjeecsu",
+  "external_url": "https://codecats.xyz",
+  "animation_url": null,
+  "custom_fields": {
+    "date": 1647039293429,
+    "compiler": "HashLips Art Engine - codeSTACKr Modified"
+  },
+  "attributes": null
+}

@@ -1,0 +1,40 @@
+{
+  "name": "YOUR COLLECTION NAME #0",
+  "description": "Remember to replace this description",
+  "image": "https://ipfs.io/ipfs/bafkreibdaeoupfjsm5f2fvo4vkj24gacwkammv3bmeiaf7bihvx6v2fhxy",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Large"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Bottom lid",
+      "value": "Low"
+    },
+    {
+      "trait_type": "Top lid",
+      "value": "Low"
+    }
+  ],
+  "dna": "f6adc228f031457e741a9f90df1b20e61a39452d",
+  "edition": 0,
+  "external_url": "https://codecats.xyz",
+  "date": 1650841177720,
+  "compiler": "HashLips Art Engine - codeSTACKr Modified"
+}
