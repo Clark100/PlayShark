@@ -346,6 +346,10 @@ section {
   transform: translate(-50%, -50%) scale(3);
 }
 
+.distributions_of_cards{
+  display: inline;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
