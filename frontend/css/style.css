@@ -346,7 +346,7 @@ section {
   transform: translate(-50%, -50%) scale(3);
 }
 
-.distributions_of_cards ul{
+.distributions_of_cards ul li{
     display: inline;
 }
 
