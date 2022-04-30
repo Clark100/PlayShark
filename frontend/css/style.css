@@ -447,7 +447,7 @@ section {
   line-height: 1.8;
   font-family: var(--font-secondary);
   margin: 1rem 0;
-  font-family: 'zefani_demoregular';
+  font-family: 'Simply_Olive_DEMO'
 }
 .collaboration blockquote {
   font-size: 1.1rem;
@@ -505,7 +505,9 @@ font-size: 1rem;
 }
 
 .about{
-
+  width: 1000px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .about h3{
