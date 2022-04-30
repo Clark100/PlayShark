@@ -346,8 +346,16 @@ section {
   transform: translate(-50%, -50%) scale(3);
 }
 
+.distributions_of_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .distributions_of_cards ul li{
     display: inline-block;
+    padding: 2em;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
