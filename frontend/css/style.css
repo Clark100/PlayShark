@@ -366,13 +366,12 @@ section {
     text-align: center;
 }
 
-.distributions_of_cards ul li p{
-  font-size: 1.5rem;
-}
-
 .dist_of_cards_num{
   font-size: 3rem;
+}
 
+.distributions_of_cards ul li p{
+  font-size: 1.5rem;
 }
 
 
