@@ -496,9 +496,7 @@ font-size: 1rem;
 }
 
 .about{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .about h3{
@@ -506,8 +504,13 @@ font-size: 1rem;
 }
 
 .about_inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Simply_Olive_DEMO';
 }
+
+
 
 /* UTILITIES */
 
