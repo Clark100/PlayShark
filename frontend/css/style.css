@@ -4,23 +4,32 @@
 
 @font-face {
   font-family: 'Montel';
-  src: url("../Montel.woff") format("woff");
+  src: url("../fonts/Montel.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'bodo_amat';
-  src: url("../Bodo_Amat.woff") format("woff");
+  src: url("../fonts/Bodo_Amat.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Simply_Olive_DEMO';
-  src: url("../Simply_Olive_DEMO.woff") format("woff");
+  src: url("../fonts/Simply_Olive_DEMO.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'zefani_demoregular';
+  src: url("../fonts/zefani_uppercase_demo-regular-webfont.woff2") format('woff2'),
+       url("../fonts/zefani_uppercase_demo-regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 /* GLOBAL STYLES */
