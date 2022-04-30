@@ -347,7 +347,7 @@ section {
 }
 
 .distributions_of_cards ul li{
-    display: inline;
+    display: inline-block;
 }
 
 /* MEDIA QUERIES */
