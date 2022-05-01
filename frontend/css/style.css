@@ -360,6 +360,12 @@ section {
   z-index: -1;
 }
 
+.splide__track{
+  background-color: #f39680;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .splide__slide {
   /*border: var(--accent-color) solid;
   border-width: 5px 10px;*/
@@ -446,7 +452,6 @@ section {
 }
 
 .collaboration_inner{
-  width: 1000px;
   max-width: 1000px;
   margin: auto;
 }
@@ -530,43 +535,66 @@ section {
   justify-content: center;
   font-family: 'Montel';
   background-color: #3d5a80;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .distributions_of_cards ul li{
   display: inline-block;
   padding: 1.5em;
   text-align: center;
-  color: #ffffff;
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .dist_of_cards_num{
-font-size: 3rem;
+font-size: 3.5rem;
 }
 
 .dist_of_cards_traits{
 font-size: 1rem;
 }
 
+
 .how_to{
-  width: 1000px;
-  max-width: 1000px;
-  margin: auto;
+  padding: 2em;
+  background-color: #e0fbfc;
+  color: #3d5a80;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .how_to h3{
   font-family: 'bodo_amat';
   font-size: 2.5rem;
+  text-align: center;
+  padding: 1em;
 }
 
 .how_to_inner{
   font-family: 'Simply_Olive_DEMO';
   font-size: 1.8rem;
+  max-width: 800px;
+  margin: auto;
 }
 
-.sample_cards{
+.sample_cards_1{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
+}
+
+.sample_cards_2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
 }
 
 .diamond_sample_card img{
@@ -605,20 +633,124 @@ font-size: 1rem;
 .bronze_sample_card p{
   font-size: 2.3rem;
   text-align: center;
-
 }
 
-.team{
+.appetite{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.appetite_explain h4{
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+
+.card_number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.card_number_explain h4{
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+
+.roadmap{
+  background-color: #3d5a80;
+  color: #e0fbfc;
+}
+
+.roadmap_inner{
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.roadmap_inner h3{
+  font-family: 'bodo_amat';
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.roadmap_inner p{
+  font-family: 'Simply_Olive_DEMO';
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.team{
+  background-color: #e0fbfc;
+  color: #3d5a80;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.team h3{
+  font-family: 'bodo_amat';
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.team_inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.mr_black img{
+  max-width: 300px;
+  margin: auto;
+}
+
+.mr_black h4{
+  font-family: 'bodo_amat';
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.mr_black p{
+  font-family: 'Simply_Olive_DEMO';
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.mr_white img{
+  max-width: 300px;
+  margin: auto;
+}
+
+.mr_white h4{
+  font-family: 'bodo_amat';
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.mr_white p{
+  font-family: 'Simply_Olive_DEMO';
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .footer{
-  background-color: #a6cbf0;
+  background-color: #f39680;
   padding: 1em;
   text-align: center;
-
+  color: #3d5a80;
+  font-family: 'bodo_amat';
 }
 
 
