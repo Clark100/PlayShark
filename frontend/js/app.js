@@ -24,18 +24,43 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  const splide = new Splide(".splide", {
+  const FirstSplide = new Splide(".FirstSplide", {
     type: "loop",
     arrows: false,
     perMove: 3,
     pagination: false,
     autoplay: true,
-    direction: 'ttb',
-    height: "calc(100vh - 90px)",
-    width: '30vw',
+    direction: 'rtl',
+    //height: "calc(100vh - 90px)",
+    //width: '30vw',
+    //height: "30vh",
+    //width: '100vw',
     autoHeight: true,
+    //autoWidth: true,
+    drag   : 'free',
+    snap   : true,
+    perPage: 6,
   });
-  splide.mount();
+  FirstSplide.mount();
+
+  const SecondSplide = new Splide(".SecondSplide", {
+    type: "loop",
+    arrows: false,
+    perMove: 3,
+    pagination: false,
+    autoplay: true,
+    direction: 'rtl',
+    //height: "calc(100vh - 90px)",
+    //width: '30vw',
+    //height: "30vh",
+    //width: '100vw',
+    autoHeight: true,
+    //autoWidth: true,
+    drag   : 'free',
+    snap   : true,
+    perPage: 6,
+  });
+  SecondSplide.mount();
 
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
