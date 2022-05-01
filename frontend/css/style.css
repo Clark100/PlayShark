@@ -431,7 +431,7 @@ section {
 
 .collaboration {
   padding: 5rem 0;
-  background: var(--accent-color);
+  background: #e0fbfc;
   text-align: center;
   color: var(--bg-color);
 }
@@ -448,13 +448,14 @@ section {
   margin: 2rem 0;
   font-size: 2rem;
   font-family: 'bodo_amat';
+  color: #ee6c4d;
 }
 .collaboration p {
   font-size: 1.8rem;
-  line-height: 1.8;
   font-family: var(--font-secondary);
   margin: 1rem 0;
-  font-family: 'Simply_Olive_DEMO'
+  font-family: 'Simply_Olive_DEMO';
+  color:#3d5a80;
 }
 .collaboration blockquote {
   font-size: 1.1rem;
@@ -490,17 +491,43 @@ section {
   filter: hue-rotate(180deg);
 }
 
+.collab_buttons a{
+  background-color: #3d5a80;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: 'Simply_Olive_DEMO';
+  margin:1em;
+  border-radius: 15px 50px 30px 5px;
+}
+
+.collab_buttons a i{
+  font-size: 1.5rem;
+}
+
+.collab_buttons a:hover{
+  background-color: #e0fbfc;
+  border: #3d5a80 solid;
+  color: #3d5a80;
+}
+
 .distributions_of_cards{
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Montel';
+  background-color: #3d5a80;
 }
 
 .distributions_of_cards ul li{
   display: inline-block;
   padding: 1.5em;
   text-align: center;
+  color: #ffffff;
 }
 
 .dist_of_cards_num{
@@ -511,21 +538,78 @@ font-size: 3rem;
 font-size: 1rem;
 }
 
-.about{
+.how_to{
   width: 1000px;
   max-width: 1000px;
   margin: auto;
 }
 
-.about h3{
-  font-family: 'Montel';
+.how_to h3{
+  font-family: 'bodo_amat';
+  font-size: 2.5rem;
 }
 
-.about_inner{
+.how_to_inner{
+  font-family: 'Simply_Olive_DEMO';
+  font-size: 1.8rem;
+}
+
+.sample_cards{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'bodo_amat';
+}
+
+.diamond_sample_card img{
+  max-width: 11em;
+}
+
+.gold_sample_card img{
+  max-width: 11em;
+}
+
+.silver_sample_card img{
+  max-width: 11em;
+}
+
+.bronze_sample_card img{
+  max-width: 11em;
+}
+
+.diamond_sample_card p{
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.gold_sample_card p{
+  font-size: 2.3rem;
+  text-align: center;
+
+}
+
+.silver_sample_card p{
+  font-size: 2.3rem;
+  text-align: center;
+
+}
+
+.bronze_sample_card p{
+  font-size: 2.3rem;
+  text-align: center;
+
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  background-color: #a6cbf0;
+  padding: 1em;
+  text-align: center;
+
 }
 
 
