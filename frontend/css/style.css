@@ -97,6 +97,16 @@ header .container {
   align-items: center;
 }
 
+.landing_page{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.hero_image{
+  max-width: 500px;
+}
+
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
@@ -643,6 +653,10 @@ font-size: 1rem;
   padding-bottom: 1em;
 }
 
+.appetite_icon{
+  max-width: 200px;
+}
+
 .appetite_explain h4{
   font-size: 2.3rem;
   padding-bottom: 1rem;
@@ -654,6 +668,10 @@ font-size: 1rem;
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.card_number_icon{
+  max-width: 200px;
 }
 
 .card_number_explain h4{
