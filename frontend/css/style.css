@@ -95,6 +95,9 @@ header .container {
   min-height: calc(100vh - 90px);
   display: flex;
   align-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/hero_image/background_img.jpg");
 }
 
 .landing_page{
@@ -730,6 +733,9 @@ font-size: 1rem;
 .mr_black img{
   max-width: 300px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mr_black h4{
@@ -748,6 +754,9 @@ font-size: 1rem;
 .mr_white img{
   max-width: 300px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mr_white h4{
