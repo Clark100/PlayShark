@@ -109,7 +109,7 @@ header .container {
 .hero_image{
   position: absolute;
   top: 150px;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 /* NOT CONNECTED */
@@ -117,7 +117,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 0 auto 0 40vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -131,14 +131,25 @@ header .container {
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   font-size: 3.5rem;
 }
 
+.not-connected h2{
+  color: #ee6c4d;
+  font-size: 3rem;
+  font-family: 'Simply_Olive_DEMO';
+}
+
+.hero_logo{
+  max-width: 600px;
+}
+
 .not-connected p {
-  font-size: 1.1rem;
-  font-family: var(--font-secondary);
-  line-height: 1.8;
+  font-size: 2rem;
+  font-family: 'Simply_Olive_DEMO';
+  line-height: 1;
+  color: #ee6c4d;
 }
 
 .not-connected a {

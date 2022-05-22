@@ -1,9 +1,9 @@
 const contractAddress = "0xB6f67055FcF00D41b1b4F288b8952bB46672A325"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "PlayShark Trading Card Game";
+const welcome_h1 = "";
 const welcome_h2 = "An NFT Project";
-const welcome_p = 'Join the community of NFT creators and collectors';
+const welcome_p = '';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
