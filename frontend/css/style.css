@@ -96,11 +96,12 @@ header .container {
 
 .main-wrapper {
   min-height: calc(100vh - 90px);
-  display: flex;
+  /* display: flex; */
   align-items: center;
   background-size: cover;
   background-position: center center;
   background-image: url("../images/hero_image/background_img.jpg");
+  min-height: 800px;
 }
 
 .landing_page{
@@ -111,18 +112,9 @@ header .container {
 
 .hero_image{
   position: absolute;
-  top: 150px;
-  max-width: 500px;
+  max-width: 300px;
+  top:600px;
 }
-
-@media screen and (min-width: 400px) {
-  .hero_image{
-    position: absolute;
-    top: 100px;
-    max-width: 300px;
-  }
-}
-
 
 /* NOT CONNECTED */
 .not-connected {
@@ -154,7 +146,7 @@ header .container {
 }
 
 .hero_logo{
-  max-width: 600px;
+  max-width: 300px;
 }
 
 .not-connected p {
@@ -433,52 +425,6 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
-  .menu {
-    gap: 1rem;
-  }
-  .wallet-btn {
-    margin-left: 0;
-    padding: 0.5rem 1rem;
-    max-width: 8rem;
-  }
-  .not-connected {
-    background-color: var(--bg-color-transparent);
-    border-radius: 5px;
-    padding: 2rem;
-    margin: 0 auto;
-  }
-  .countdown ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .countdown .clock-item {
-    width: 100%;
-  }
-  .countdown .clock-item .count-number {
-    font-size: 1.5rem;
-  }
-  .countdown .clock-item .count-text {
-    font-size: 1rem;
-  }
-  .countdown h1 {
-    font-size: 2rem;
-    margin: 1rem 0;
-  }
-  .countdown h2 {
-    padding-top: 0.5rem;
-  }
-  .countdown p {
-    font-size: 1rem;
-  }
-  .card {
-    padding: 1rem;
-  }
-  .mint-qty .btn {
-    padding: 1rem;
-    font-size: 13px;
-  }
-}
 
 /* COLLABORATION */
 
@@ -567,7 +513,7 @@ section {
   color: #3d5a80;
 }
 
-.distributions_of_cards{
+.distributions_of_cards_sm{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -577,9 +523,9 @@ section {
   padding-bottom: 2em;
 }
 
-.dist_card_list{
+.dist_card_list_sm{
   display: inline-block;
-  padding: 0 8em 0 6em;
+  /* padding: 0 8em 0 6em; */
   text-align: center;
   background: linear-gradient(
     to right, 
@@ -590,12 +536,16 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
-.dist_of_cards_num{
-font-size: 3.5rem;
+.dist_of_cards_num_sm{
+font-size: 2rem;
 }
 
-.dist_of_cards_traits{
+.dist_of_cards_traits_sm{
 font-size: 1rem;
+}
+
+.distributions_of_cards{
+  display:none;
 }
 
 
@@ -611,7 +561,7 @@ font-size: 1rem;
   font-family: 'bodo_amat';
   font-size: 2.5rem;
   text-align: center;
-  padding: 1em;
+  padding: 1em 0 1em 0;
 }
 
 .how_to_inner{
@@ -621,7 +571,11 @@ font-size: 1rem;
   margin: auto;
 }
 
-.sample_cards_1{
+.how_to_inner_instructions p{
+  padding-top: 2em;
+}
+
+/* .sample_cards_1{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -633,7 +587,7 @@ font-size: 1rem;
   align-items: center;
   justify-content: center;
   padding: 1em;
-}
+} */
 
 .diamond_sample_card img{
   max-width: 11em;
@@ -673,12 +627,20 @@ font-size: 1rem;
   text-align: center;
 }
 
-.appetite{
+/* .appetite{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
+} */
+
+.appetite_sm{
+  padding-top: 2em;
+}
+
+.appetite{
+  display:none;
 }
 
 .appetite_icon{
@@ -690,12 +652,20 @@ font-size: 1rem;
   padding-bottom: 1rem;
 }
 
-.card_number{
+/* .card_number{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
+} */
+
+.card_number{
+  padding-top: 2em;
+}
+
+.card_number{
+  display: none;
 }
 
 .card_number_icon{
@@ -728,7 +698,7 @@ font-size: 1rem;
 
 .roadmap_inner p{
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 1em;
 }
@@ -748,9 +718,6 @@ font-size: 1rem;
 }
 
 .team_inner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 800px;
   margin: auto;
 }
@@ -844,7 +811,7 @@ font-size: 1rem;
   list-style-type: none;
   width: 6px;
   background-color: white;
-  margin: 0 auto;
+  margin: 0 50px;
   padding-top: 50px;
 }
 
@@ -863,7 +830,7 @@ font-size: 1rem;
 
 ul li div{
   position: relative;
-  width: 400px;
+  width: 250px;
   padding: 15px;
   border-radius: 5px;
   bottom: 0;
@@ -875,8 +842,16 @@ ul li:nth-child(odd) div {
 }
 
 ul li:nth-child(even) div {
-  left: -445px;
+  left: 45px;
 }
+
+/* ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+ul li:nth-child(even) div {
+  left: -445px;
+} */
 
 time {
   font-weight: bold;
@@ -905,13 +880,380 @@ ul li.show div {
   opacity: 1;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 460px) {
+  .main-wrapper {
+    min-height: 700px;
+  }
+  .hero_image {
+    top: 500px;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 500px){
+  .hero_logo{
+    max-width: 450px;
+  }
+  ul li div {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .hero_image {
+    left: 150px;
+  }
+  ul li div {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .main-wrapper {
+    min-height: 600px;
+  }
+  .hero_image {
+    top: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    gap: 1rem;
+  }
+  .wallet-btn {
+    margin-left: 0;
+    padding: 0.5rem 1rem;
+    max-width: 8rem;
+  }
+  .not-connected {
+    /* background-color: var(--bg-color-transparent); */
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .countdown ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .countdown .clock-item {
+    width: 100%;
+  }
+  .countdown .clock-item .count-number {
+    font-size: 1.5rem;
+  }
+  .countdown .clock-item .count-text {
+    font-size: 1rem;
+  }
+  .countdown h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .countdown h2 {
+    padding-top: 0.5rem;
+  }
+  .countdown p {
+    font-size: 1rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+  .mint-qty .btn {
+    padding: 1rem;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:768px){
+  .main-wrapper{
+    min-height: 420px;
+  }
+  .hero_image{
+    position: absolute;
+    top: 120px;
+    max-width: 400px;
+    left: 50px;
+  }
+  /* NOT CONNECTED */
+  .not-connected {
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto 0 40vw;
+    opacity: 0;
+    transform: translateY(10vh);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .show-not-connected {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .not-connected h1 {
+    text-shadow: 2px 2px 0 var(--accent-color);
+    font-style: italic;
+    /* margin: 2rem 0; */
+    font-size: 3.5rem;
+  }
+
+  .not-connected h2{
+    color: #ee6c4d;
+    font-size: 3rem;
+    font-family: 'Simply_Olive_DEMO';
+  }
+
+  .hero_logo{
+    max-width: 350px;
+  }
+
+  .not-connected p {
+    font-size: 2rem;
+    font-family: 'Simply_Olive_DEMO';
+    line-height: 1;
+    color: #ee6c4d;
+  }
+
+  .not-connected a {
+    text-decoration: none;
+    /* color: var(--accent-color); */
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-flex;
+  }
+
+  .dist_card_list_sm {
+    padding: 0 1em 0 1em;
+  }
+  .dist_of_cards_num_sm {
+    font-size: 3rem;
+  }
+
+  .sample_cards_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+  }
+  
+  .sample_cards_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+  }
+  .appetite_sm{
+    display: none;
+  }
+
+  .appetite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .card_number_sm{
+    display: none;
+  }
+  
+  .card_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .roadmap_inner p{
+    font-size: 1.8rem;
+  }
+
+  .timeline_li {
+    margin: 0 auto;
+  }
+  ul li div{
+    width: 300px;
+  }
+  ul li:nth-child(odd) div {
+    left: 45px;
+  }
+  
+  ul li:nth-child(even) div {
+    left: -345px;
+  }
+
+  .team_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* @media screen and (max-width: 900px) {
   ul li div {
     width: 250px;
   }
   ul li:nth-child(even) div {
     left: -289px;
-    /*250+45-6*/
+  }
+} */
+
+@media screen and (min-width: 900px){
+  .roadmap_inner p{
+    font-size: 1.8rem;
+  }
+
+  .timeline_li {
+    margin: 0 auto;
+  }
+  ul li div{
+    width: 400px;
+  }
+  ul li:nth-child(odd) div {
+    left: 45px;
+  }
+  
+  ul li:nth-child(even) div {
+    left: -445px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .main-wrapper{
+    min-height: 400px;
+  }
+  .hero_image{
+    position: absolute;
+    top: 100px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .main-wrapper{
+    min-height: 500px;
+  }
+  .hero_image{
+    position: absolute;
+    top: 150px;
+    max-width: 500px;
+  }
+
+  .hero_logo{
+    max-width: 600px;
+  }
+
+  .not-connected a {
+    display: inline-block;
+  }
+  
+  .distributions_of_cards_sm{
+    display:none;
+  }
+
+  .distributions_of_cards{
+    display: block flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montel';
+    background-color: #3d5a80;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .dist_card_list{
+    display: inline-block;
+    padding: 0 8em 0 6em;
+    text-align: center;
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .dist_of_cards_num{
+  font-size: 3.5rem;
+  }
+  
+  .dist_of_cards_traits{
+  font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1300px){
+  .main-wrapper{
+    min-height: 600px;
+  }
+  .hero_image{
+    max-width: 600px;
+  }
+  .not-connected{
+    margin: 10vw auto 0 40vw;
+  }
+  .how_to_inner{
+    max-width: 1000px;
+  }
+  ul li div {
+    width: 500px;
+  }
+  ul li:nth-child(even) div {
+    left: -545px;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .hero_image {
+    left: 100px;
+  }
+  .collaboration_inner {
+    max-width: 1200px;
+  }
+  .how_to_inner{
+    max-width: 1200px;
+  }
+  .diamond_sample_card img {
+    max-width: 13em;
+  }
+  .gold_sample_card img {
+    max-width: 13em;
+  }
+  .silver_sample_card img {
+    max-width: 13em;
+  }
+  .bronze_sample_card img {
+    max-width: 13em;
+  }
+  .appetite_icon {
+    max-width: 300px;
+  }
+  .card_number_icon {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .collaboration_inner {
+    max-width: 1400px;
+  }
+  .how_to_inner{
+    max-width: 1300px;
+  }
+  .diamond_sample_card img {
+    max-width: 15em;
+  }
+  .gold_sample_card img {
+    max-width: 15em;
+  }
+  .silver_sample_card img {
+    max-width: 15em;
+  }
+  .bronze_sample_card img {
+    max-width: 15em;
   }
 }
 
