@@ -444,12 +444,12 @@ section {
   text-shadow: 2px 2px 0 var(--font-color);
   /* font-style: italic; */
   margin: 2rem 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'bodo_amat';
   color: #ee6c4d;
 }
 .collaboration p {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-family: var(--font-secondary);
   margin: 1rem 0;
   font-family: 'Varela Round', sans-serif;
@@ -566,7 +566,7 @@ font-size: 1rem;
 
 .how_to_inner{
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   max-width: 800px;
   margin: auto;
 }
@@ -696,10 +696,16 @@ font-size: 1rem;
   padding: 1em;
 }
 
+.roadmap_inner h4{
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1em;
+}
+
 .roadmap_inner p{
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.2rem;
-  text-align: center;
+  font-size: 1.3rem;
+  text-align: left;
   padding: 1em;
 }
 
@@ -739,7 +745,7 @@ font-size: 1rem;
 
 .mr_black p{
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -760,7 +766,7 @@ font-size: 1rem;
 
 .mr_white p{
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
